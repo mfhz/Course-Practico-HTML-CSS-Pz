@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-size: small;
+    font-family: Arial,sans-serif;
+}
+
+nav {
+    background: transparent;
+}
+
+.items-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 10px 15px; */
+}
+
+.items-nav a {
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
+}
+
+.items-nav a:hover {
+    opacity: .85;
+    text-decoration: underline;
+}
+
+.items {
+    margin: 13px 8px;
+}
+
+
+.img-nav img {
+    height: 20px;
+    width: 20px;
+}
+
+.img-profile-nav img {
+    margin-right: 45px;
+    margin-left: 5px;
+}
