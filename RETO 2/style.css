@@ -1,18 +1,181 @@
-body {
+* {   
     margin: 0;
     border: 0;
     padding: 0;
+}
+
+body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Lato, Helvetica, Arial, sans-serif;
 }
 
+/* ---- Section Main ------- */
+
 .titles {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.titles h1 {
+    font-size: 30px;
+}
+
+.titles h5 {
+    font-weight: normal;
+}
+
+.section-main{
+    /* display: flex; */
+    /* justify-content: center; */
     text-align: center;
 }
 
-.section-image img {
+.section-main-div {
+    display: inline-block;
+}
+
+.alf  {
+    color: #3366CC;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.alf > p {
+    color: rgba(2, 2, 2, .6);
+    font-size: 11px;
+}
+
+.div-A {
+    position: relative;
+    right: 80px;
+}
+
+.div-B {
+    position: relative;
+    left: 80px;
+}
+
+.div-C {
+    position: relative;
+    right: 140px;
+}
+
+.div-D {
+    position: relative;
+    left: 140px;
+}
+
+.div-E {
+    position: relative;
+    right: 160px;
+}
+
+.div-F {
+    position: relative;
+    left: 160px;
+}
+
+.div-G {
+    position: relative;
+    right: 140px;
+}
+
+.div-H {
+    position: relative;
+    left: 140px;
+}
+
+.div-I {
+    position: relative;
+    right: 80px;
+}
+
+.div-J {
+    position: relative;
+    left: 80px;
+}
+
+
+.section-main-image {
     height: 180px;
     width: 200px;
-    background-position: center;
-    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -270px;
 }
+
+.section-main-image img {
+    height: inherit;
+    width: inherit;    
+    /* background-position: center; */
+}
+
+.section-main-find {
+    position: relative;
+    margin: 0 auto;
+    width: 380px;
+    height: 40px;
+    top: -170px;
+}
+
+.find-text {
+    width: inherit;
+    height: inherit;
+    border: 1px solid rgba(2, 2, 2, .4);
+    box-sizing: border-box;
+    position: absolute;    
+}
+
+.find-text > input {
+    width: 323px;
+    height: 30px;
+    padding-left: 5px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1px;
+}
+
+.find-text > select {
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: rgba(2, 2, 2, .65);;
+}
+
+.find-text > button {
+    position: absolute;
+    background-color: #3366cc;
+    width: 50px;
+    height: inherit;
+    border: 1px solid #3366CC;
+    border-radius: 3px;
+    top: -1px;
+    right: -50px;
+    box-sizing: border-box;
+}
+
+.find-text > button > i {
+    width: inherit;
+    height: inherit;
+    background-image: url('./finder.svg');
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;    
+}
+
+.find-text > button > i:hover {
+    background-color: #447ff5;
+    border-color: #447ff5;
+    border-radius: 3px;
+    top: -1px;
+    right: -200px;    
+}
+
+
+
    
